@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/QuestionActivityId"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Views.Activities.QuestionActivity">
+
+    <TextView
+        android:id="@+id/questitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:gravity="center"
+        android:text="Question"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:id="@+id/quesImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="150dp"
+        android:gravity="center"></ImageView>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnop1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Op1"
+            android:textAlignment="center"></Button>
+
+        <Button
+            android:id="@+id/btnop2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Op2"
+            android:textAlignment="center"></Button>
+
+        <Button
+            android:id="@+id/btnop3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Op3"
+            android:textAlignment="center"></Button>
+
+        <Button
+            android:id="@+id/btnop4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Op4"
+            android:textAlignment="center"></Button>
+
+    </LinearLayout>
+
+</RelativeLayout>
+
